@@ -30,6 +30,7 @@ public class BoardServiceImpl implements BoardService {
         boardRepository.save(board);
         return null;
     }
+
     @Override
     public Map<String, Object> updateBoard(Map<String, Object> params) {
         System.out.println("updateBoard");
